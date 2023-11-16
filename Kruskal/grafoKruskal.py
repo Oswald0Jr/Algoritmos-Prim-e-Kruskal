@@ -21,7 +21,7 @@ class Grafo:
         raiz_x = self.encontrar(pai, x)
         raiz_y = self.encontrar(pai, y)
         
-        #se o peso da raiz de x for menor que o peso da raiz de y, isso significa que a árvore enraizada em x é menor que a árvore enraizada em y. portanto a anexa a arvore menor à maior
+        #se o peso da raiz de x for menor que o peso da raiz de y, isso significa que a árvore enraizada em x é menor que a árvore enraizada em y. portanto anexa a arvore menor à maior
         if rank[raiz_x] < rank[raiz_y]:
             
         #se a árvore enraizada em x é menor que a árvore enraizada em y, atualizamos o pai da raiz de x para ser a raiz de y.
